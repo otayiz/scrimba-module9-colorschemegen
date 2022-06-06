@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        <div class="container">
+            <div class="form-area">
+                <form id="cs-form">
+                    <input type="color" value="#af045a" id="color-picker">
+                    <select name="scheme-mode" id="scheme-mode">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                    <button type="submit">Get color scheme</button>
+                </form>
+            </div>
+            <div id="results-col"></div>
+            <div id="results-hex"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

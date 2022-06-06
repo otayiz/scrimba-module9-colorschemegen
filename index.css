@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    border: black solid 1px;
+    width: 550px;
+    margin: auto;
+}
+
+#results-col,  #results-hex{
+    display: flex
+}
+
+.color-result {
+    width: 20%;
+    height: 400px;
+}
+
+.color-hex {
+    text-align: center;
+    width: 20%;
+}
+
+#results {
+}
